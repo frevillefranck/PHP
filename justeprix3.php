@@ -107,4 +107,7 @@ while ($Restart == "Oui") {
     }
     echo "Voulez vous recommencer ? (Oui ou Non)\n";
     $Restart = readline();
+    if ($Restart == "Non") {
+        echo "Ok bah salut !";
+    }
 }
